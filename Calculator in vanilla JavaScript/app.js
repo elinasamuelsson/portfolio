@@ -2,7 +2,7 @@ let problem = "";
 let result = "";
 
 const button = document.getElementsByTagName("button");
-const displayWindow = document.getElementById("displayWindow");
+const displayWindow = document.querySelector("#displayWindow");
 
 for (let i = 0; i < button.length; i++) {
   button[i].addEventListener("click", function (event) {
