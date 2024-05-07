@@ -1,0 +1,3295 @@
+{
+  "Trailblazer": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Character_Trailblazer_Splash_Art.png/",
+    "pulled": "2024-02-01",
+    "level": 70,
+    "rarity": 5,
+    "eidolons": 6,
+    "type": "Physical",
+    "path": "The Destruction",
+    "lightCone": {
+      "name": "Idelible Promise",
+      "rarity": 4,
+      "path": "The Destruction",
+      "level": 60,
+      "superImposition": 1,
+      "stats": [
+        ["HP", 684],
+        ["ATK", 342],
+        ["DEF", 237]
+      ]
+    },
+    "traces": {
+      "basicATK": 5,
+      "skill": 8,
+      "ultimate": 8,
+      "talent": 8
+    },
+    "stats": {
+      "HP": 2014,
+      "ATK": 1304,
+      "DEF": 733,
+      "SPD": 100,
+      "critRate": 7.3,
+      "critDMG": 62.4,
+      "DMGBoost": ["Physical", 4.9],
+      "breakEffect": 60.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 3.1,
+      "effectRES": 2.7
+    },
+    "relics": {
+      "head": {
+        "name": "Thief's Myriad-Faced Mask",
+        "level": 0,
+        "rarity": 4,
+        "set": "Thief of Shooting Meteor",
+        "stats": {
+          "main": ["HP", 90],
+          "sub": [
+            ["ATK%", 3.4],
+            ["Effect Hit Rate", 3.1]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Thief's Gloves With Prints",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 45],
+          "sub": [
+            ["DEF", 15],
+            ["CritDMG", 4.1]
+          ]
+        }
+      },
+      "body": {
+        "name": "Thief's Steel Grappling Hook",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["CritDMG", 8.2],
+          "sub": [
+            ["HP%", 3.4],
+            ["Crit Rate", 2.3]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Thief's Meteor Boots",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["HP", 27],
+            ["ATK", 16]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Herta's Space Station",
+        "set": "Space Sealing Station",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["Physical DMG Boost", 4.9],
+          "sub": [
+            ["ATK", 16],
+            ["Effect RES", 2.7]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Herta's Wandering Trek",
+        "set": "Space Sealing Station",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["HP", 27],
+            ["ATK%", 3.1]
+          ]
+        }
+      }
+    }
+  },
+  "Black Swan": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Character_Black_Swan_Splash_Art.png/",
+    "pulled": "2024-02-06",
+    "level": 70,
+    "rarity": 5,
+    "eidolons": 0,
+    "type": "Wind",
+    "path": "The Nihility",
+    "lightCone": {
+      "name": "Reforged Remembrance",
+      "rarity": 5,
+      "path": "The Nihility",
+      "level": 70,
+      "superImposition": 1,
+      "stats": [
+        ["HP", 909],
+        ["ATK", 500],
+        ["DEF", 397]
+      ]
+    },
+    "traces": {
+      "basicATK": 5,
+      "skill": 8,
+      "ultimate": 7,
+      "talent": 8
+    },
+    "stats": {
+      "HP": 2898,
+      "ATK": 2743,
+      "DEF": 1203,
+      "SPD": 106,
+      "critRate": 33.8,
+      "critDMG": 86.9,
+      "DMGBoost": ["Wind", 46.8],
+      "breakEffect": 16.8,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 44.0,
+      "effectRES": 26.7
+    },
+    "relics": {
+      "head": {
+        "name": "Prisoner's Sealed Muzzle",
+        "set": "Prisoner in Deep Confinement",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["HP", 705],
+          "sub": [
+            ["SPD", 2],
+            ["Crit Rate", 2.9],
+            ["Effect RES", 12.5],
+            ["Break Effect", 16.8]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Prisoner's Leadstone Shackles",
+        "set": "Prisoner in Deep Confinement",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 234],
+          "sub": [
+            ["HP%", 3.4],
+            ["ATK%", 5.8],
+            ["DEF%", 3.8],
+            ["Effect RES", 6.9]
+          ]
+        }
+      },
+      "body": {
+        "name": "Prisoner's Repressive Straitjacket",
+        "set": "Prisoner in Deep Confinement",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["CritRATE", 21.5],
+          "sub": [
+            ["HP", 30],
+            ["ATK", 30],
+            ["DEF%", 7.7],
+            ["SPD", 1]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Prisoner's Restrictive Fetters",
+        "set": "Prisoner in Deep Confinement",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 28.7],
+          "sub": [
+            ["DEF", 50],
+            ["DEF%", 3.4],
+            ["Crit Rate", 4.4],
+            ["Effect RES", 3.4]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Glamoth's Iron Cavalry Regiment",
+        "set": "Firmament Frontline Glamoth",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["Wind DMG Boost", 38.8],
+          "sub": [
+            ["HP%", 7.7],
+            ["ATK%", 3.8],
+            ["DEF%", 10.2],
+            ["CritDMG", 18.1]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Glamoth's Silent Tombstone",
+        "set": "Firmament Frontline Glamoth",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["ATK%", 43.2],
+          "sub": [
+            ["ATK", 42],
+            ["DEF%", 14.5],
+            ["CritDMG", 18.7],
+            ["Effect RES", 3.8]
+          ]
+        }
+      }
+    }
+  },
+  "Aventurine": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a9/Character_Aventurine_Splash_Art.png/",
+    "pulled": "2024-04-17",
+    "level": 70,
+    "rarity": 5,
+    "eidolons": 1,
+    "type": "Imaginary",
+    "path": "The Preservation",
+    "lightCone": {
+      "name": "Inherently Unjust Destiny",
+      "rarity": 5,
+      "path": "The Preservation",
+      "level": 70,
+      "superImposition": 1,
+      "stats": [
+        ["HP", 909],
+        ["ATK", 363],
+        ["DEF", 568]
+      ]
+    },
+    "traces": {
+      "basicATK": 5,
+      "skill": 7,
+      "ultimate": 7,
+      "talent": 7
+    },
+    "stats": {
+      "HP": 2791,
+      "ATK": 1167,
+      "DEF": 4177,
+      "SPD": 107,
+      "critRate": 37.1,
+      "critDMG": 61.0,
+      "DMGBoost": ["Imaginary", 4.8],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 18.6,
+      "effectRES": 15.2
+    },
+    "relics": {
+      "head": {
+        "name": "Knight's Forgiving Casque",
+        "set": "Knight of Purity Palace",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 469],
+          "sub": [
+            ["ATK%", 3.1],
+            ["DEF%", 11.2],
+            ["SPD", 1],
+            ["Crit Rate", 2.3]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Knight's Silent Oath Ring",
+        "set": "Knight of Purity Palace",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["ATK", 352],
+          "sub": [
+            ["DEF", 40],
+            ["DEF%", 9.1],
+            ["Effect Hit Rate", 3.8],
+            ["Effect RES", 11.2]
+          ]
+        }
+      },
+      "body": {
+        "name": "Knight's Solemn Breastplate",
+        "set": "Knight of Purity Palace",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 35.9],
+          "sub": [
+            ["DEF", 33],
+            ["HP%", 3.4],
+            ["Crit Rate", 6.9],
+            ["Effect Hit Rate", 3.1]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Knight's Iron Boots of Order",
+        "set": "Knight of Purity Palace",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 35.9],
+          "sub": [
+            ["HP", 30],
+            ["HP%", 5.5],
+            ["ATK%", 2.7],
+            ["Crit Rate", 5.1]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Salsotto's Moving City",
+        "set": "Inert Salsotto",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["DEF%", 54.0],
+          "sub": [
+            ["DEF", 19],
+            ["Crit Rate", 5.5],
+            ["CritDMG", 11.0],
+            ["Effect Hit Rate", 11.6]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Salsotto's Moving City",
+        "set": "Inert Salsotto",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 35.9],
+          "sub": [
+            ["HP", 33],
+            ["ATK", 15],
+            ["HP%", 5.8],
+            ["Crit Rate", 4.1]
+          ]
+        }
+      }
+    }
+  },
+  "Bailu": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e9/Character_Bailu_Splash_Art.png/",
+    "pulled": "2024-02-18",
+    "level": 70,
+    "rarity": 5,
+    "eidolons": 0,
+    "type": "Lightning",
+    "path": "The Abundance",
+    "lightCone": {
+      "name": "Quid Pro Quo",
+      "rarity": 4,
+      "path": "The Abundance",
+      "level": 70,
+      "superImposition": 1,
+      "stats": [
+        ["HP", 818],
+        ["ATK", 363],
+        ["DEF", 341]
+      ]
+    },
+    "traces": {
+      "basicATK": 5,
+      "skill": 7,
+      "ultimate": 8,
+      "talent": 8
+    },
+    "stats": {
+      "HP": 4810,
+      "ATK": 1028,
+      "DEF": 1134,
+      "SPD": 103,
+      "critRate": 16.6,
+      "critDMG": 50.0,
+      "DMGBoost": ["Lightning", 0.0],
+      "breakEffect": 13.9,
+      "outgHealBoost": 33.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 8.9,
+      "effectRES": 4.0
+    },
+    "relics": {
+      "head": {
+        "name": "Passerby's Rejuvenated Wooden Hairstick",
+        "set": "Passerby of Wandering Cloud",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 469],
+          "sub": [
+            ["ATK", 30],
+            ["DEF%", 7.7],
+            ["SPD", 1],
+            ["Crit Rate", 2.3]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Passerby's Roaming Dragon Bracer",
+        "set": "Passerby of Wandering Cloud",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 45],
+          "sub": [
+            ["DEF", 13],
+            ["Break Effect", 5.1]
+          ]
+        }
+      },
+      "body": {
+        "name": "Passerby's Ragged Embroided Coat",
+        "set": "Passerby of Wandering Cloud",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["Outgoing Healing Boost", 23.0],
+          "sub": [
+            ["DEF", 13],
+            ["DEF%", 7.7],
+            ["Crit Rate", 7.2],
+            ["Break Effect", 4.1]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Passerby's Stygian Hiking Boots",
+        "set": "Passerby of Wandering Cloud",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["ATK", 50],
+            ["DEF%", 8.2],
+            ["Crit Rate", 2.0],
+            ["Effect Hit Rate", 2.7]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "The Xianzhou Loufu's Celestial Ark",
+        "set": "Fleet of the Ageless",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["HP", 27],
+            ["ATK", 30],
+            ["SPD", 2],
+            ["Effect Hit Rate", 6.2]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "The Xianzhou Loufu's Ambrosial Arbor Vines",
+        "set": "Fleet of the Ageless",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["ATK", 13],
+            ["DEF", 62],
+            ["SPD", 1],
+            ["Break Effect", 4.6]
+          ]
+        }
+      }
+    }
+  },
+  "Sampo": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/65/Character_Sampo_Splash_Art.png/",
+    "pulled": "2024-02-18",
+    "level": 70,
+    "rarity": 4,
+    "eidolons": 1,
+    "type": "Wind",
+    "path": "The Nihility",
+    "lightCone": {
+      "name": "Quid Pro Quo",
+      "rarity": 4,
+      "path": "The Nihility",
+      "level": 70,
+      "superImposition": 2,
+      "stats": [
+        ["HP", 818],
+        ["ATK", 409],
+        ["DEF", 284]
+      ]
+    },
+    "traces": {
+      "basicATK": 5,
+      "skill": 7,
+      "ultimate": 8,
+      "talent": 8
+    },
+    "stats": {
+      "HP": 3234,
+      "ATK": 2229,
+      "DEF": 1085,
+      "SPD": 102,
+      "critRate": 21.8,
+      "critDMG": 70.2,
+      "DMGBoost": ["Wind", 0.0],
+      "breakEffect": 16.2,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 45.5,
+      "effectRES": 4.0
+    },
+    "relics": {
+      "head": {
+        "name": "Prisoner's Sealed Muzzle",
+        "set": "Prisoner in Deep Confinement",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["HP", 705],
+          "sub": [
+            ["ATK", 40],
+            ["ATK%", 3.4],
+            ["DEF%", 9.7],
+            ["Crit Rate", 8.7]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Prisoner's Leadstone Shackles",
+        "set": "Prisoner in Deep Confinement",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["ATK", 56],
+          "sub": [
+            ["HP", 33],
+            ["DEF", 21],
+            ["Crit Rate", 2.9],
+            ["Effect Hit Rate", 4.3]
+          ]
+        }
+      },
+      "body": {
+        "name": "Prisoner's Repressive Straitjacket",
+        "set": "Prisoner in Deep Confinement",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["HP", 64],
+            ["DEF%", 7.3],
+            ["CritDMG", 9.8],
+            ["Break Effect", 5.1]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Prisoner's Restrictive Fetters",
+        "set": "Prisoner in Deep Confinement",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 35.9],
+          "sub": [
+            ["HP", 33],
+            ["ATK", 28],
+            ["DEF", 13],
+            ["HP%", 6.2]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Glamoth's Iron Cavalry Regiment",
+        "set": "Firmament Frontline Glamoth",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["ATK%", 43.2],
+          "sub": [
+            ["HP", 80],
+            ["DEF%", 9.7],
+            ["CritDMG", 10.3],
+            ["Break Effect", 11.0]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Glamoth's Silent Tombstone",
+        "set": "Firmament Frontline Glamoth",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["ATK", 16],
+            ["DEF%", 3.4],
+            ["Crit Rate", 5.1],
+            ["Effect Hit Rate", 6.2]
+          ]
+        }
+      }
+    }
+  },
+  "Pela": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c9/Character_Pela_Splash_Art.png/",
+    "pulled": "2024-02-02",
+    "level": 70,
+    "rarity": 4,
+    "eidolons": 0,
+    "type": "Ice",
+    "path": "The Nihility",
+    "lightCone": {
+      "name": "Resolution Shines As Pearls of Sweat",
+      "rarity": 4,
+      "path": "The Nihility",
+      "level": 60,
+      "superImposition": 2,
+      "stats": [
+        ["HP", 684],
+        ["ATK", 342],
+        ["DEF", 237]
+      ]
+    },
+    "traces": {
+      "basicATK": 4,
+      "skill": 6,
+      "ultimate": 8,
+      "talent": 6
+    },
+    "stats": {
+      "HP": 2242,
+      "ATK": 1249,
+      "DEF": 760,
+      "SPD": 138,
+      "critRate": 39.4,
+      "critDMG": 54.1,
+      "DMGBoost": ["Ice", 11.2],
+      "breakEffect": 4.6,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 22.9,
+      "effectRES": 12.0
+    },
+    "relics": {
+      "head": {
+        "name": "Musketeer's Wild Wheat Felt Hat",
+        "set": "Musketeer of Wild Wheat",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 469],
+          "sub": [
+            ["DEF", 30],
+            ["DEF%", 4.3],
+            ["Effect Hit Rate", 2.7],
+            ["Effect RES", 5.8]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Musketeer's Coarse Leather Gloves",
+        "set": "Musketeer of Wild Wheat",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 234],
+          "sub": [
+            ["HP%", 5.8],
+            ["SPD", 2],
+            ["Crit Rate", 2.0],
+            ["Effect Hit Rate", 6.2]
+          ]
+        }
+      },
+      "body": {
+        "name": "Musketeer's Wind-Hunting Shawl",
+        "set": "Musketeer of Wild Wheat",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["Crit Rate", 32.4],
+          "sub": [
+            ["HP", 42],
+            ["ATK", 38],
+            ["DEF", 19],
+            ["SPD", 9]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Musketeer's Rivets Riding Boots",
+        "set": "Musketeer of Wild Wheat",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["SPD", 16],
+          "sub": [
+            ["HP", 57],
+            ["ATK", 16],
+            ["DEF%", 3.8],
+            ["Effect RES", 6.2]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "The IPC's Mega HQ",
+        "set": "Pan-Cosmic Commercial Enterprise",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["HP", 30],
+            ["ATK", 15],
+            ["DEF", 13]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "The IPC's Trade Route",
+        "set": "Pan-Cosmic Commercial Enterprise",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["Crit DMG", 4.1],
+            ["Break Effect", 4.6]
+          ]
+        }
+      }
+    }
+  },
+  "Serval": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Character_Serval_Splash_Art.png/",
+    "pulled": "2024-02-01",
+    "level": 70,
+    "rarity": 4,
+    "eidolons": 3,
+    "type": "Lightning",
+    "path": "The Erudition",
+    "lightCone": {
+      "name": "Make the World Clamor",
+      "rarity": 4,
+      "path": "The Erudition",
+      "level": 60,
+      "superImposition": 2,
+      "stats": [
+        ["HP", 608],
+        ["ATK", 342],
+        ["DEF", 285]
+      ]
+    },
+    "traces": {
+      "basicATK": 5,
+      "skill": 8,
+      "ultimate": 6,
+      "talent": 6
+    },
+    "stats": {
+      "HP": 1719,
+      "ATK": 1087,
+      "DEF": 832,
+      "SPD": 105,
+      "critRate": 12.8,
+      "critDMG": 50.0,
+      "DMGBoost": ["Lightning", 0.0],
+      "breakEffect": 40.8,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 8.2,
+      "effectRES": 6.6
+    },
+    "relics": {
+      "head": {
+        "name": "Thief's Myriad-Faced Mask",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["HP", 112],
+          "sub": [
+            ["DEF", 19],
+            ["Crit Rate", 2.5],
+            ["Effect Hit Rate", 3.8]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Thief's Gloves With Prints",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 45],
+          "sub": [
+            ["DEF", 15],
+            ["HP%", 2.7],
+            ["Effect RES", 2.7]
+          ]
+        }
+      },
+      "body": {
+        "name": "Thief's Steel Grappling Hook",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["HP", 33],
+            ["Crit Rate", 2.5]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Thief's Meteor Boots",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["DEF%", 8.6],
+          "sub": [
+            ["HP", 42],
+            ["DEF", 19],
+            ["Effect Hit Rate", 4.3],
+            ["Effect RES", 3.8]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Herta's Space Station",
+        "set": "Space Sealing Station",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["SPD", 1],
+            ["Break Effect", 4.1]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Herta's Wandering Trek",
+        "set": "Space Sealing Station",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 5.5],
+          "sub": [
+            ["ATK", 16],
+            ["DEF%", 4.3],
+            ["Break Effect", 4.6]
+          ]
+        }
+      }
+    }
+  },
+  "Herta": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Character_Herta_Splash_Art.png/",
+    "pulled": "2024-02-01",
+    "level": 70,
+    "rarity": 4,
+    "eidolons": 6,
+    "type": "Ice",
+    "path": "The Erudition",
+    "lightCone": {
+      "name": "Geniuses' Repose",
+      "rarity": 4,
+      "path": "The Erudition",
+      "level": 60,
+      "superImposition": 1,
+      "stats": [
+        ["HP", 608],
+        ["ATK", 342],
+        ["DEF", 285]
+      ]
+    },
+    "traces": {
+      "basicATK": 5,
+      "skill": 8,
+      "ultimate": 8,
+      "talent": 8
+    },
+    "stats": {
+      "HP": 3492,
+      "ATK": 1730,
+      "DEF": 800,
+      "SPD": 107,
+      "critRate": 7.7,
+      "critDMG": 50.0,
+      "DMGBoost": ["Ice", 21.2],
+      "breakEffect": 14.4,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 5.5,
+      "effectRES": 8.9
+    },
+    "relics": {
+      "head": {
+        "name": "Hunter's Artaius Hood",
+        "set": "Hunter of Glacial Forest",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 469],
+          "sub": [
+            ["ATK", 44],
+            ["DEF", 13],
+            ["SPD", 1],
+            ["Effect RES", 3.1]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Hunter's Lizard Gloves",
+        "set": "Hunter of Glacial Forest",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 234],
+          "sub": [
+            ["HP", 30],
+            ["DEF", 28],
+            ["HP%", 6.5],
+            ["ATK", 3.1]
+          ]
+        }
+      },
+      "body": {
+        "name": "Hunter's Ice Dragon Cloak",
+        "set": "Hunter of Glacial Forest",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["HP", 54],
+            ["ATK", 15],
+            ["ATK%", 3.4],
+            ["Break Effect", 9.3]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Hunter's Soft Elkskin Boots",
+        "set": "Hunter of Glacial Forest",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 28.7],
+          "sub": [
+            ["DEF", 13],
+            ["DEF%", 3.8],
+            ["SPD", 5],
+            ["Effect RES", 3.1]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Herta's Space Station",
+        "set": "Space Sealing Station",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["HP", 94],
+            ["ATK%", 3.4],
+            ["Effect RES", 2.7],
+            ["Break Effect", 5.1]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Herta's Wandering Trek",
+        "set": "Space Sealing Station",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["HP", 57],
+            ["ATK", 13],
+            ["DEF%", 8.6],
+            ["Effect Hit Rate", 5.5]
+          ]
+        }
+      }
+    }
+  },
+  "Asta": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bd/Character_Asta_Splash_Art.png/",
+    "pulled": "2024-02-01",
+    "level": 70,
+    "rarity": 4,
+    "eidolons": 1,
+    "type": "Fire",
+    "path": "The Harmony",
+    "lightCone": {
+      "name": "Dance! Dance! Dance!",
+      "rarity": 4,
+      "path": "The Harmony",
+      "level": 70,
+      "superImposition": 2,
+      "stats": [
+        ["HP", 818],
+        ["ATK", 363],
+        ["DEF", 341]
+      ]
+    },
+    "traces": {
+      "basicATK": 5,
+      "skill": 8,
+      "ultimate": 8,
+      "talent": 8
+    },
+    "stats": {
+      "HP": 2728,
+      "ATK": 1441,
+      "DEF": 1129,
+      "SPD": 109,
+      "critRate": 17.2,
+      "critDMG": 54.6,
+      "DMGBoost": ["Fire", 26.0],
+      "breakEffect": 73.6,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 3.4,
+      "effectRES": 32.1
+    },
+    "relics": {
+      "head": {
+        "name": "Firesmith's Obsidian Goggles",
+        "set": "Firesmith of Lava-Forging",
+        "level": 7,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 311],
+          "sub": [
+            ["DEF", 16],
+            ["ATK%", 2.7],
+            ["DEF%", 4.3],
+            ["Effect RES", 2.7]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Firesmith's Ring of Flame-Mastery",
+        "set": "Firesmith of Lava-Forging",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 234],
+          "sub": [
+            ["DEF%", 3.8],
+            ["Crit Rate", 4.6],
+            ["Effect RES", 6.2],
+            ["Break Effect", 4.1]
+          ]
+        }
+      },
+      "body": {
+        "name": "Firesmith's Fireproof Apron",
+        "set": "Firesmith of Lava-Forging",
+        "level": 7,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 23.8],
+          "sub": [
+            ["HP", 57],
+            ["ATK%", 3.4],
+            ["Crit DMG", 4.6],
+            ["Effect Hit Rate", 3.4]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Firesmith's Alloy Leg",
+        "set": "Firesmith of Lava-Forging",
+        "level": 10,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 24.8],
+          "sub": [
+            ["ATK%", 2.7],
+            ["DEF%", 4.3],
+            ["Effect RES", 6.2],
+            ["Break Effect", 4.6]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Insumousu's Whalefall Ship",
+        "set": "Broken Keel",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 28.7],
+          "sub": [
+            ["HP", 30],
+            ["ATK", 15],
+            ["SPD", 3],
+            ["Crit Rate", 4.9]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Insumousu's Frayed Hawser",
+        "set": "Broken Keel",
+        "level": 15,
+        "rarity": 5,
+        "stats": {
+          "main": ["Break Effect", 64.7],
+          "sub": [
+            ["ATK", 40],
+            ["HP%", 10.8],
+            ["ATK%", 3.8],
+            ["Effect RES", 6.9]
+          ]
+        }
+      }
+    }
+  },
+  "Sparkle": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Character_Sparkle_Splash_Art.png/",
+    "pulled": "2024-03-03",
+    "level": 60,
+    "rarity": 5,
+    "eidolons": 0,
+    "type": "Quantum",
+    "path": "The Harmony",
+    "lightCone": {
+      "name": "Memories of the Past",
+      "rarity": 4,
+      "path": "The Harmony",
+      "level": 40,
+      "superImposition": 1,
+      "stats": {
+        "HP": 416,
+        "ATK": 185,
+        "DEF": 173
+      }
+    },
+    "traces": {
+      "basicATK": 4,
+      "skill": 6,
+      "ultimate": 6,
+      "talent": 6
+    },
+    "stats": {
+      "HP": 2198,
+      "ATK": 741,
+      "DEF": 662,
+      "SPD": 101,
+      "critRate": 5.0,
+      "critDMG": 61.7,
+      "DMGBoost": ["Quantum", 0.0],
+      "breakEffect": 44.0,
+      "outgHealBoost": 5.5,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 6.6,
+      "effectRES": 7.4
+    },
+    "relics": {
+      "head": {
+        "name": "Watchmaker's Telescoping Lens",
+        "set": "Watchmaker, Master of Dream Machinations",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["HP", 112],
+          "sub": [
+            ["ATK", 19],
+            ["HP%", 4.3],
+            ["ATK%", 3.8],
+            ["Crit DMG", 6.4]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Musketeer's Coarse Leather Gloves",
+        "set": "Musketeer of Wild Wheat",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["ATK", 56],
+          "sub": [
+            ["HP", 42],
+            ["DEF", 19],
+            ["ATK%", 3.8]
+          ]
+        }
+      },
+      "body": {
+        "name": "Watchmaker's Illusory Formal Suit",
+        "set": "Watchmaker, Master of Dream Machinations",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["Outgoing Healing Boost", 5.5],
+          "sub": [
+            ["HP", 38],
+            ["HP%", 3.4],
+            ["Effect Hit Rate", 3.8]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Grand Duke's Ceremonial Boots",
+        "set": "The Ashblazing Grand Duke",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["HP%", 6.9],
+          "sub": [
+            ["ATK", 16],
+            ["DEF", 19],
+            ["ATK%", 3.8]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "The Xianzhou Loufu's Celestial Ark",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 5.5],
+          "sub": [
+            ["DEF", 15],
+            ["DEF%", 3.4]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "The Xianzhou Loufu's Ambrosial Arbor Vines",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["DEF", 13],
+            ["Effect Hit Rate", 2.7],
+            ["Effect RES", 3.4]
+          ]
+        }
+      }
+    }
+  },
+  "Dr. Ratio": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/56/Character_Dr._Ratio_Splash_Art.png/",
+    "pulled": "2024-02-01",
+    "level": 60,
+    "rarity": 5,
+    "eidolons": 0,
+    "type": "Imaginary",
+    "path": "The Hunt",
+    "lightCone": {
+      "name": "Only Silence Remains",
+      "rarity": 4,
+      "path": "The Hunt",
+      "level": 60,
+      "superImposition": 1,
+      "stats": {
+        "HP": 684,
+        "ATK": 342,
+        "DEF": 237
+      }
+    },
+    "traces": {
+      "basicATK": 4,
+      "skill": 6,
+      "ultimate": 6,
+      "talent": 6
+    },
+    "stats": {
+      "HP": 2124,
+      "ATK": 2328,
+      "DEF": 657,
+      "SPD": 126,
+      "critRate": 12.3,
+      "critDMG": 63.9,
+      "DMGBoost": ["Imaginary", 25.8],
+      "breakEffect": 42.2,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 18.2,
+      "effectRES": 6.9
+    },
+    "relics": {
+      "head": {
+        "name": "Grand Duke's Crown of Netherflame",
+        "set": "The Ashblazing Grand Duke",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 469],
+          "sub": [
+            ["DEF", 42],
+            ["HP%", 4.3],
+            ["ATK%", 2.7],
+            ["Break Effect", 13.4]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Grand Duke's Gloves of Fieryfur",
+        "set": "The Ashblazing Grand Duke",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 234],
+          "sub": [
+            ["ATK%", 6.9],
+            ["SPD", 3],
+            ["Crit Rate", 2.5],
+            ["Crit DMG", 4.6]
+          ]
+        }
+      },
+      "body": {
+        "name": "Grand Duke's Robe of Grace",
+        "set": "The Ashblazing Grand Duke",
+        "level": 12,
+        "rarity": 5,
+        "stats": {
+          "main": ["ATK%", 35.9],
+          "sub": [
+            ["DEF", 42],
+            ["HP%", 4.3],
+            ["Effect Hit Rate", 11.6],
+            ["Break Effect", 11.6]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Grand Duke's Ceremonial Boots",
+        "set": "The Ashblazing Grand Duke",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["SPD", 16],
+          "sub": [
+            ["ATK", 13],
+            ["Crit Rate", 2.0],
+            ["Effect RES", 3.4],
+            ["Break Effect", 12.9]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Herta's Space Station",
+        "set": "Space Sealing Station",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["Imaginary DMG Boost", 25.8],
+          "sub": [
+            ["HP", 33],
+            ["ATK%", 6.2],
+            ["Crit DMG", 9.3],
+            ["Effect RES", 3.4]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Herta's Wandering Trek",
+        "set": "Space Sealing Station",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 28.7],
+          "sub": [
+            ["HP%", 2.7],
+            ["SPD", 4],
+            ["Effect Hit Rate", 6.5],
+            ["Break Effect", 4.1]
+          ]
+        }
+      }
+    }
+  },
+  "Gepard": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Character_Gepard_Splash_Art.png/",
+    "pulled": "2024-02-02",
+    "level": 60,
+    "rarity": 5,
+    "eidolons": 0,
+    "type": "Ice",
+    "path": "The Preservation",
+    "lightCone": {
+      "name": "Moment of Victory",
+      "rarity": 5,
+      "path": "The Preservation",
+      "level": 60,
+      "superImposition": 1,
+      "stats": {
+        "HP": 760,
+        "ATK": 342,
+        "DEF": 427
+      }
+    },
+    "traces": {
+      "basicATK": 4,
+      "skill": 6,
+      "ultimate": 6,
+      "talent": 6
+    },
+    "stats": {
+      "HP": 1989,
+      "ATK": 967,
+      "DEF": 1320,
+      "SPD": 97,
+      "critRate": 10.5,
+      "critDMG": 54.6,
+      "DMGBoost": ["Ice", 11.2],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 102.4,
+      "effectHitRate": 30.5,
+      "effectRES": 10.6
+    },
+    "relics": {
+      "head": {
+        "name": "Messenger's Holovisor",
+        "set": "Messenger Traversing Hackerspace",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["HP", 112],
+          "sub": [
+            ["ATK%", 3.4],
+            ["Crit Rate", 2.5],
+            ["Effect RES", 3.8]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Messenger's Transformative Arm",
+        "set": "Messenger Traversing Hackerspace",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["ATK", 56],
+          "sub": [
+            ["HP", 33],
+            ["ATK%", 4.3],
+            ["Crit Rate", 2.9],
+            ["Effect Hit Rate", 3.4]
+          ]
+        }
+      },
+      "body": {
+        "name": "Messenger's Secret Satchel",
+        "set": "Messenger Traversing Hackerspace",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["DEF", 16],
+            ["Effect RES", 2.7]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Messenger's Par-kool Sneakers",
+        "set": "Messenger Traversing Hackerspace",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["DEF%", 3.8],
+            ["Effect Hit Rate", 3.1]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "The Xianzhou Loufu's Celestial Ark",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["ATK", 16],
+            ["Crit DMG", 4.6]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Herta's Wandering Trek",
+        "set": "Space Sealing Station",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["Energy Regeneration Rate", 2.4],
+          "sub": [
+            ["HP", 27],
+            ["DEF", 13]
+          ]
+        }
+      }
+    }
+  },
+  "Himeko": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Character_Himeko_Splash_Art.png/",
+    "pulled": "",
+    "level": 60,
+    "rarity": 5,
+    "eidolons": 0,
+    "type": "Fire",
+    "path": "The Erudition",
+    "lightCone": {
+      "name": "Geniuses' Repose",
+      "rarity": 4,
+      "path": "The Erudition",
+      "level": 50,
+      "superImposition": 1,
+      "stats": {
+        "HP": 489,
+        "ATK": 275,
+        "DEF": 229
+      }
+    },
+    "traces": {
+      "basicATK": 4,
+      "skill": 6,
+      "ultimate": 6,
+      "talent": 6
+    },
+    "stats": {
+      "HP": 1897,
+      "ATK": 1647,
+      "DEF": 984,
+      "SPD": 96,
+      "critRate": 14.5,
+      "critDMG": 50.0,
+      "DMGBoost": ["Fire", 11.2],
+      "breakEffect": 47.8,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 10.0,
+      "effectRES": 12.6
+    },
+    "relics": {
+      "head": {
+        "name": "Thief's Myriad-Faced Mask",
+        "set": "Thief of Shooting Meteor",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 469],
+          "sub": [
+            ["DEF", 28],
+            ["ATK%", 2.7],
+            ["Effect RES", 5.8],
+            ["Break Effect", 4.1]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Thief's Gloves With Prints",
+        "set": "Thief of Shooting Meteor",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 234],
+          "sub": [
+            ["ATK%", 3.1],
+            ["DEF%", 4.3],
+            ["Crit Rate", 6.9],
+            ["Effect RES", 2.7]
+          ]
+        }
+      },
+      "body": {
+        "name": "Thief's Steel Grappling Hook",
+        "set": "Thief of Shooting Meteor",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 28.7],
+          "sub": [
+            ["ATK", 13],
+            ["DEF", 30],
+            ["HP%", 3.1],
+            ["DEF%", 7.3]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Thief's Meteor Boots",
+        "set": "Thief of Shooting Meteor",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 35.9],
+          "sub": [
+            ["HP", 33],
+            ["ATK", 16],
+            ["HP%", 3.1],
+            ["ATK%", 8.6]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "The IPC's Mega HQ",
+        "set": "Pan-Cosmic Commercial Enterprise",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["Quantum DMG Boost", 6.2],
+          "sub": [
+            ["DEF%", 5.4],
+            ["Crit Rate", 2.5],
+            ["Break Effect", 6.4]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "The IPC's Trade Route",
+        "set": "Pan-Cosmic Commercial Enterprise",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["DEF%", 8.6],
+          "sub": [
+            ["HP", 33],
+            ["DEF", 21],
+            ["Break Effect", 5.1]
+          ]
+        }
+      }
+    }
+  },
+  "Yukong": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Character_Yukong_Splash_Art.png/",
+    "pulled": "",
+    "level": 60,
+    "rarity": 4,
+    "eidolons": 0,
+    "type": "Imaginary",
+    "path": "The Harmony",
+    "lightCone": {
+      "name": "Planetary Rendezvous",
+      "rarity": 4,
+      "path": "The Harmony",
+      "level": 1,
+      "superImposition": 1,
+      "stats": { "HP": 48, "ATK": 19, "DEF": 15 }
+    },
+    "traces": {
+      "basicATK": 2,
+      "skill": 6,
+      "ultimate": 5,
+      "talent": 4
+    },
+    "stats": {
+      "HP": 1405,
+      "ATK": 982,
+      "DEF": 390,
+      "SPD": 131,
+      "critRate": 7.5,
+      "critDMG": 79.0,
+      "DMGBoost": ["Imaginary", 29.0],
+      "breakEffect": 25.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 7.3,
+      "effectRES": 3.4
+    },
+    "relics": {
+      "head": {
+        "name": "Musketeer's Wild Wheat Felt Hat",
+        "set": "Musketeer of Wild Wheat",
+        "level": 9,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 374],
+          "sub": [
+            ["HP%", 3.1],
+            ["DEF%", 3.8],
+            ["Effect RES", 3.4],
+            ["Break Effect", 9.3]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Musketeer's Coarse Leather Gloves",
+        "set": "Musketeer of Wild Wheat",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 234],
+          "sub": [
+            ["HP%", 3.4],
+            ["ATK%", 8.2],
+            ["SPD", 2],
+            ["Effect Hit Rate", 3.4]
+          ]
+        }
+      },
+      "body": {
+        "name": "Musketeer's Wind-Hunting Shawl",
+        "set": "Musketeer of Wild Wheat",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["Crit DMG", 10.3],
+          "sub": [
+            ["ATK%", 3.4],
+            ["DEF%", 4.8],
+            ["Effect Hit Rate", 3.8],
+            ["Break Effect", 5.8]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Musketeer's Rivets Riding Boots",
+        "set": "Musketeer of Wild Wheat",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["SPD", 16],
+          "sub": [
+            ["HP", 91],
+            ["DEF%", 4.3],
+            ["Crit DMG", 4.6],
+            ["Break Effect", 5.1]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "The Xianzhou Loufu's Celestial Ark",
+        "set": "Fleet of the Ageless",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["Imaginary DMG Boost", 25.8],
+          "sub": [
+            ["HP", 30],
+            ["DEF", 30],
+            ["ATK%", 5.8],
+            ["Crit Rate", 2.5]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "The Xianzhou Loufu's Ambrosial Arbor Vines",
+        "set": "Fleet of the Ageless",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 28.7],
+          "sub": [
+            ["HP", 30],
+            ["DEF%", 7.7],
+            ["Crit DMG", 13.9],
+            ["Break Effect", 4.6]
+          ]
+        }
+      }
+    }
+  },
+  "Natasha": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7e/Character_Natasha_Splash_Art.png/",
+    "pulled": "",
+    "level": 60,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Physical",
+    "path": "The Abundance",
+    "lightCone": {
+      "name": "Perfect Timing",
+      "rarity": 4,
+      "path": "The Abundance",
+      "level": 1,
+      "superImposition": 1,
+      "stats": { "HP": 43, "ATK": 19, "DEF": 18 }
+    },
+    "traces": {
+      "basicATK": 3,
+      "skill": 6,
+      "ultimate": 4,
+      "talent": 5
+    },
+    "stats": {
+      "HP": 1686,
+      "ATK": 480,
+      "DEF": 483,
+      "SPD": 104,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Physical", 0.0],
+      "breakEffect": 4.6,
+      "outgHealBoost": 10.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 6.2,
+      "effectRES": 26.2
+    },
+    "relics": {
+      "head": {
+        "name": "Guard's Cast Iron Helmet",
+        "set": "Guard of Wuthering Snow",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 469],
+          "sub": [
+            ["DEF", 49],
+            ["HP%", 3.1],
+            ["SPD", 2],
+            ["Effect RES", 6.2]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Guard's Shining Gauntlets",
+        "set": "Guard of Wuthering Snow",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 45],
+          "sub": [
+            ["HP%", 45],
+            ["SPD", 1]
+          ]
+        }
+      },
+      "body": {
+        "name": "Passerby's Ragged Embroided Coat",
+        "set": "Passerby of Wandering Cloud",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["Effect Hit Rate", 4.1],
+          "sub": [["ATK", 10]]
+        }
+      },
+      "feet": {
+        "name": "Passerby's Stygian Hiking Boots",
+        "set": "Passerby of Wandering Cloud",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["SPD", 2],
+          "sub": [
+            ["ATK", 10],
+            ["Effect Hit Rate", 2.0]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "The Xianzhou Loufu's Celestial Ark",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["Ice DMG Boost", 4.9],
+          "sub": [
+            ["HP%", 2.7],
+            ["Break Effect", 4.6]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "The Xianzhou Loufu's Ambrosial Arbor Vines",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["HP", 30],
+            ["ATK", 15],
+            ["DEF", 13]
+          ]
+        }
+      }
+    }
+  },
+  "Qingque": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Character_Qingque_Splash_Art.png/",
+    "pulled": "",
+    "level": 50,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Quantum",
+    "path": "The Erudition",
+    "lightCone": {
+      "name": "The Seriousness of Breakfast",
+      "rarity": 4,
+      "path": "The Erudition",
+      "level": 30,
+      "superImposition": 1,
+      "stats": { "HP": 251, "ATK": 141, "DEF": 117 }
+    },
+    "traces": {
+      "basicATK": 3,
+      "skill": 4,
+      "ultimate": 6,
+      "talent": 6
+    },
+    "stats": {
+      "HP": 1352,
+      "ATK": 755,
+      "DEF": 454,
+      "SPD": 99,
+      "critRate": 5.0,
+      "critDMG": 55.1,
+      "DMGBoost": ["Quantum", 22.0],
+      "breakEffect": 17.6,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 10.3,
+      "effectRES": 3.4
+    },
+    "relics": {
+      "head": {
+        "name": "Genius's Ultraremote Sensing Visor",
+        "set": "Genius of Brilliant Stars",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 90],
+          "sub": [
+            ["HP%", 3.1],
+            ["ATK%", 3.1],
+            ["Effect Hit Rate", 3.4]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Genius's Frequency Catcher",
+        "set": "Genius of Brilliant Stars",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 45],
+          "sub": [
+            ["DEF%", 3.4],
+            ["Effect RES", 3.4]
+          ]
+        }
+      },
+      "body": {
+        "name": "Genius's Metafield Suit",
+        "set": "Genius of Brilliant Stars",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 5.5],
+          "sub": [
+            ["DEF", 15],
+            ["Effect Hit Rate", 3.4]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Genius's Gravity Walker",
+        "set": "Genius of Brilliant Stars",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["DEF", 13],
+            ["Effect Hit Rate", 3.4],
+            ["Break Effect", 4.1]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Herta's Space Station",
+        "set": "Space Sealing Station",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["Ice DMG Boost", 4.9],
+          "sub": [
+            ["DEF%", 3.8],
+            ["Crit DMG", 5.1]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Herta's Wandering Trek",
+        "set": "Space Sealing Station",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 28.7],
+          "sub": [
+            ["HP", 27],
+            ["ATK%", 3.4],
+            ["SPD", 1],
+            ["Break Effect", 13.4]
+          ]
+        }
+      }
+    }
+  },
+  "Clara": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Character_Clara_Splash_Art.png/",
+    "pulled": "",
+    "level": 50,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Physical",
+    "path": "The Destruction",
+    "lightCone": {
+      "name": "Something Irreplaceable",
+      "rarity": 5,
+      "path": "The Destruction",
+      "level": 30,
+      "superImposition": 1,
+      "stats": { "HP": 345, "ATK": 172, "DEF": 117 }
+    },
+    "traces": {
+      "basicATK": 1,
+      "skill": 2,
+      "ultimate": 2,
+      "talent": 2
+    },
+    "stats": {
+      "HP": 1279,
+      "ATK": 1085,
+      "DEF": 417,
+      "SPD": 90,
+      "critRate": 16.9,
+      "critDMG": 50.0,
+      "DMGBoost": ["Physical", 0.0],
+      "breakEffect": 32.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 102.4,
+      "effectHitRate": 6.2,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "Thief's Myriad-Faced Mask",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 90],
+          "sub": [
+            ["DEF%", 3.8],
+            ["Crit Rate", 2.3],
+            ["Effect Hit Rate", 2.7]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Thief's Gloves With Prints",
+        "set": "Thief of Shooting Meteor",
+        "level": 12,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 234],
+          "sub": [
+            ["HP", 30],
+            ["HP%", 3.1],
+            ["ATK%", 3.4],
+            ["Crit Rate", 6.9]
+          ]
+        }
+      },
+      "body": {
+        "name": "Thief's Steel Grappling Hook",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 5.5],
+          "sub": [
+            ["DEF%", 3.4],
+            ["Crit Rate", 2.5]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Thief's Meteor Boots",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["ATK", 15],
+            ["Effect Hit Rate", 3.4]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "Herta's Space Station",
+        "set": "Space Sealing Station",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["HP", 33],
+            ["ATK%", 3.1]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "Herta's Wandering Trek",
+        "set": "Space Sealing Station",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["Energy Regeneration Rate", 2.4],
+          "sub": [
+            ["HP", 33],
+            ["HP%", 2.7]
+          ]
+        }
+      }
+    }
+  },
+  "Guinaifen": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/33/Character_Guinaifen_Splash_Art.png/",
+    "pulled": "",
+    "level": 40,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Fire",
+    "path": "The Nihility",
+    "lightCone": {
+      "name": "Fermata",
+      "rarity": 4,
+      "path": "The Nihility",
+      "level": 60,
+      "superImposition": 1,
+      "stats": { "HP": 684, "ATK": 342, "DEF": 237 }
+    },
+    "traces": {
+      "basicATK": 2,
+      "skill": 4,
+      "ultimate": 4,
+      "talent": 4
+    },
+    "stats": {
+      "HP": 1426,
+      "ATK": 816,
+      "DEF": 516,
+      "SPD": 108,
+      "critRate": 5.0,
+      "critDMG": 58.1,
+      "DMGBoost": ["Fire", 3.2],
+      "breakEffect": 21.1,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 7.9
+    },
+    "relics": {
+      "head": {
+        "name": "Eagle's Beaked Helmet",
+        "set": "Eagle of Twilight Line",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 90],
+          "sub": [
+            ["Crit DMG", 4.6],
+            ["Break Effect", 5.1]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Musketeer's Coarse Leather Gloves",
+        "set": "Musketeer of Wild Wheat",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK", 45],
+          "sub": [
+            ["HP", 30],
+            ["Effect RES", 3.1]
+          ]
+        }
+      },
+      "body": {
+        "name": "Musketeer's Wind-Hunting Shawl",
+        "set": "Musketeer of Wild Wheat",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["ATK%", 5.5],
+          "sub": [
+            ["HP%", 3.1],
+            ["SPD", 2]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Musketeer's Rivets Riding Boots",
+        "set": "Musketeer of Wild Wheat",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["DEF%", 5.1],
+          "sub": [["Crit DMG", 3.4]]
+        }
+      },
+      "planarSphere": {
+        "name": "The Xianzhou Loufu's Celestial Ark",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["Quantum DMG Boost", 3.7],
+          "sub": [["Effect RES", 2.0]]
+        }
+      },
+      "linkRope": {
+        "name": "The Xianzhou Loufu's Ambrosial Arbor Vines",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["ATK%", 3.1],
+            ["Effect RES", 2.7]
+          ]
+        }
+      }
+    }
+  },
+  "Lynx": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Character_Lynx_Splash_Art.png/",
+    "pulled": "",
+    "level": 40,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Quantum",
+    "path": "The Abundance",
+    "lightCone": {
+      "name": "Post-Op Conversation",
+      "rarity": 4,
+      "path": "The Abundance",
+      "level": 60,
+      "superImposition": 4,
+      "stats": { "HP": 760, "ATK": 304, "DEF": 237 }
+    },
+    "traces": {
+      "basicATK": 2,
+      "skill": 4,
+      "ultimate": 2,
+      "talent": 2
+    },
+    "stats": {
+      "HP": 1866,
+      "ATK": 687,
+      "DEF": 584,
+      "SPD": 100,
+      "critRate": 7.0,
+      "critDMG": 55.1,
+      "DMGBoost": ["Quantum", 0.0],
+      "breakEffect": 22.4,
+      "outgHealBoost": 5.5,
+      "energyRegenRate": 114.0,
+      "effectHitRate": 11.6,
+      "effectRES": 3.4
+    },
+    "relics": {
+      "head": {
+        "name": "Watchmaker's Telescoping Lens",
+        "set": "Watchmaker, Master of Dream Machinations",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["HP", 112],
+          "sub": [
+            ["ATK", 21],
+            ["Crit DMG", 5.1],
+            ["Effect Hit Rate", 3.4]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Watchmaker's Fortuitous Wristwatch",
+        "set": "Watchmaker, Master of Dream Machinations",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["ATK", 56],
+          "sub": [
+            ["HP%", 4.3],
+            ["Effect Hit Rate", 4.3],
+            ["Break Effect", 6.4]
+          ]
+        }
+      },
+      "body": {
+        "name": "Watchmaker's Illusory Formal Suit",
+        "set": "Watchmaker, Master of Dream Machinations",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["Outgoing Healing Boost", 5.5],
+          "sub": [
+            ["HP", 38],
+            ["ATK", 16],
+            ["ATK%", 3.8]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Watchmaker's Dream-Concealing Dress Shoes",
+        "set": "Watchmaker, Master of Dream Machinations",
+        "level": 0,
+        "rarity": 5,
+        "stats": {
+          "main": ["DEF%", 8.6],
+          "sub": [
+            ["HP", 33],
+            ["Effect Hit Rate", 3.8],
+            ["Effect RES", 3.4]
+          ]
+        }
+      },
+      "planarSphere": {
+        "name": "The Xianzhou Loufu's Celestial Ark",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["Imaginary DMG Boost", 4.9],
+          "sub": [
+            ["HP%", 3.4],
+            ["DEF%", 3.8]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "The Xianzhou Loufu's Ambrosial Arbor Vines",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP%", 5.5],
+          "sub": [
+            ["ATK%", 2.7],
+            ["Crit Rate", 2.0]
+          ]
+        }
+      }
+    }
+  },
+  "Hook": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Character_Hook_Splash_Art.png/",
+    "pulled": "",
+    "level": 40,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Fire",
+    "path": "The Destruction",
+    "lightCone": {
+      "name": "Woof! Walk Time!",
+      "rarity": 4,
+      "path": "The Destruction",
+      "level": 20,
+      "superImposition": 1,
+      "stats": { "HP": 166, "ATK": 83, "DEF": 57 }
+    },
+    "traces": {
+      "basicATK": 1,
+      "skill": 2,
+      "ultimate": 2,
+      "talent": 2
+    },
+    "stats": {
+      "HP": 947,
+      "ATK": 517,
+      "DEF": 255,
+      "SPD": 94,
+      "critRate": 7.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Fire", 0.0],
+      "breakEffect": 32.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "Thief's Myriad-Faced Mask",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 2,
+        "stats": {
+          "main": ["HP", 45]
+        }
+      },
+      "hands": {
+        "name": "Thief's Gloves With Prints",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 2,
+        "stats": {
+          "main": ["ATK", 22]
+        }
+      },
+      "body": {
+        "name": "Thief's Steel Grappling Hook",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 2,
+        "stats": {
+          "main": ["Crit Rate", 2.0]
+        }
+      },
+      "feet": {
+        "name": "Thief's Gloves With Prints",
+        "set": "Thief of Shooting Meteor",
+        "level": 0,
+        "rarity": 2,
+        "stats": {
+          "main": ["ATK%", 2.7]
+        }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      }
+    }
+  },
+  "Dan Heng": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e5/Character_Dan_Heng_Splash_Art.png/",
+    "pulled": "",
+    "level": 40,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Wind",
+    "path": "The Hunt",
+    "lightCone": {
+      "name": "River Flows in Spring",
+      "rarity": 4,
+      "path": "The Hunt",
+      "level": 30,
+      "superImposition": 1,
+      "stats": { "HP": 251, "ATK": 141, "DEF": 117 }
+    },
+    "traces": {
+      "basicATK": 2,
+      "skill": 3,
+      "ultimate": 3,
+      "talent": 3
+    },
+    "stats": {
+      "HP": 1250,
+      "ATK": 516,
+      "DEF": 352,
+      "SPD": 117,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Wind", 3.2],
+      "breakEffect": 7.6,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 2.5,
+      "effectRES": 4.6
+    },
+    "relics": {
+      "head": {
+        "name": "Musketeer's Wild Wheat Felt Hat",
+        "set": "Musketeer of Wild Wheat",
+        "level": 9,
+        "rarity": 4,
+        "stats": {
+          "main": ["HP", 374],
+          "sub": [
+            ["DEF", 15],
+            ["HP%", 6.9],
+            ["ATK%", 2.7],
+            ["Break Effect", 4.1]
+          ]
+        }
+      },
+      "hands": {
+        "name": "Musketeer's Coarse Leather Gloves",
+        "set": "Musketeer of Wild Wheat",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["ATK", 33],
+          "sub": [
+            ["Effect Hit Rate", 2.5],
+            ["Effect RES", 2.5]
+          ]
+        }
+      },
+      "body": {
+        "name": "Musketeer's Wind-Hunting Shawl",
+        "set": "Musketeer of Wild Wheat",
+        "level": 7,
+        "rarity": 3,
+        "stats": {
+          "main": ["HP%", 14.3],
+          "sub": [
+            ["HP", 25],
+            ["Effect RES", 2.0],
+            ["Break Effect", 3.4]
+          ]
+        }
+      },
+      "feet": {
+        "name": "Musketeer's Rivets Riding Boots",
+        "set": "Musketeer of Wild Wheat",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["DEF%", 5.1],
+          "sub": [["SPD", 1]]
+        }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      }
+    }
+  },
+  "March 7th": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/18/Character_March_7th_Splash_Art.png/",
+    "pulled": "",
+    "level": 40,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Ice",
+    "path": "The Preservation",
+    "lightCone": {
+      "name": "We Are Wildfire",
+      "rarity": 4,
+      "path": "The Preservation",
+      "level": 30,
+      "superImposition": 1,
+      "stats": { "HP": 220, "ATK": 141, "DEF": 137 }
+    },
+    "traces": {
+      "basicATK": 2,
+      "skill": 2,
+      "ultimate": 2,
+      "talent": 2
+    },
+    "stats": {
+      "HP": 893,
+      "ATK": 447,
+      "DEF": 610,
+      "SPD": 101,
+      "critRate": 5.0,
+      "critDMG": 55.1,
+      "DMGBoost": ["Ice", 3.2],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 5.5,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "Knight's Forgiving Casque",
+        "set": "Knight of Purity Palace",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["HP", 67],
+          "sub": [["DEF", 10]]
+        }
+      },
+      "hands": {
+        "name": "Knight's Silent Oath Ring",
+        "set": "Knight of Purity Palace",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["ATK", 33],
+          "sub": [["DEF", 10]]
+        }
+      },
+      "body": {
+        "name": "Knight's Solemn Breastplate",
+        "set": "Knight of Purity Palace",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["DEF%", 5.1],
+          "sub": [["Effect Hit Rate", 2.0]]
+        }
+      },
+      "feet": {
+        "name": "Knight's Iron Boots of Order",
+        "set": "Knight of Purity Palace",
+        "level": 0,
+        "rarity": 3,
+        "stats": {
+          "main": ["HP%", 4.1],
+          "sub": [["DEF%", 3.2]]
+        }
+      },
+      "planarSphere": {
+        "name": "The Xianzhou Loufu's Celestial Ark",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["ATK%", 2.7],
+            ["Effect Hit Rate", 3.4]
+          ]
+        }
+      },
+      "linkRope": {
+        "name": "The Xianzhou Loufu's Ambrosial Arbor Vines",
+        "set": "Fleet of the Ageless",
+        "level": 0,
+        "rarity": 4,
+        "stats": {
+          "main": ["DEF%", 6.9],
+          "sub": [
+            ["HP", 33],
+            ["Crit DMG", 5.1]
+          ]
+        }
+      }
+    }
+  },
+  "Yanqing": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Character_Yanqing_Splash_Art.png/",
+    "pulled": "",
+    "level": 20,
+    "rarity": 5,
+    "eidolons": "",
+    "type": "Ice",
+    "path": "The Hunt",
+    "lightCone": {
+      "name": "",
+      "rarity": "",
+      "path": "",
+      "level": "",
+      "superImposition": "",
+      "stats": { "HP": "", "ATK": "", "DEF": "" }
+    },
+    "traces": {
+      "basicATK": 1,
+      "skill": 1,
+      "ultimate": 1,
+      "talent": 1
+    },
+    "stats": {
+      "HP": 285,
+      "ATK": 217,
+      "DEF": 131,
+      "SPD": 109,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Ice", 0.0],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      },
+      "hands": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      },
+      "body": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      },
+      "feet": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": {
+          "main": []
+        }
+      }
+    }
+  },
+  "Misha": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Character_Misha_Splash_Art.png/",
+    "pulled": "",
+    "level": 20,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Ice",
+    "path": "The Destruction",
+    "lightCone": {
+      "name": "Collapsing Sky",
+      "rarity": 3,
+      "path": "The Destruction",
+      "level": 20,
+      "superImposition": 1,
+      "stats": { "HP": 147, "ATK": 64, "DEF": 34 }
+    },
+    "traces": {
+      "basicATK": 2,
+      "skill": 3,
+      "ultimate": 3,
+      "talent": 3
+    },
+    "stats": {
+      "HP": 600,
+      "ATK": 276,
+      "DEF": 172,
+      "SPD": 96,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Ice", 3.2],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "hands": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "body": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "feet": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      }
+    }
+  },
+  "Hanya": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Character_Hanya_Splash_Art.png/",
+    "pulled": "",
+    "level": 20,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Physical",
+    "path": "The Harmony",
+    "lightCone": {
+      "name": "",
+      "rarity": "",
+      "path": "",
+      "level": "",
+      "superImposition": "",
+      "stats": { "HP": "", "ATK": "", "DEF": "" }
+    },
+    "traces": {
+      "basicATK": 1,
+      "skill": 1,
+      "ultimate": 1,
+      "talent": 1
+    },
+    "stats": {
+      "HP": 293,
+      "ATK": 180,
+      "DEF": 112,
+      "SPD": 110,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Physical", 3.2],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "hands": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "body": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "feet": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      }
+    }
+  },
+  "Sushang": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Character_Sushang_Splash_Art.png/",
+    "pulled": "",
+    "level": 20,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Physical",
+    "path": "The Hunt",
+    "lightCone": {
+      "name": "",
+      "rarity": "",
+      "path": "",
+      "level": "",
+      "superImposition": "",
+      "stats": { "HP": "", "ATK": "", "DEF": "" }
+    },
+    "traces": {
+      "basicATK": 1,
+      "skill": 1,
+      "ultimate": 1,
+      "talent": 1
+    },
+    "stats": {
+      "HP": 293,
+      "ATK": 187,
+      "DEF": 133,
+      "SPD": 107,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Physical", 0.0],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "hands": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "body": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "feet": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      }
+    }
+  },
+  "Tingyun": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Character_Tingyun_Splash_Art.png/",
+    "pulled": "",
+    "level": 20,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Lightning",
+    "path": "The Harmony",
+    "lightCone": {
+      "name": "",
+      "rarity": "",
+      "path": "",
+      "level": "",
+      "superImposition": "",
+      "stats": { "HP": "", "ATK": "", "DEF": "" }
+    },
+    "traces": {
+      "basicATK": 1,
+      "skill": 1,
+      "ultimate": 1,
+      "talent": 1
+    },
+    "stats": {
+      "HP": 270,
+      "ATK": 169,
+      "DEF": 126,
+      "SPD": 112,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Physical", 0.0],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "hands": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "body": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "feet": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      }
+    }
+  },
+  "Luka": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Character_Luka_Splash_Art.png/",
+    "pulled": "",
+    "level": 20,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Physical",
+    "path": "The Nihility",
+    "lightCone": {
+      "name": "",
+      "rarity": "",
+      "path": "",
+      "level": "",
+      "superImposition": "",
+      "stats": { "HP": "", "ATK": "", "DEF": "" }
+    },
+    "traces": {
+      "basicATK": 1,
+      "skill": 1,
+      "ultimate": 1,
+      "talent": 1
+    },
+    "stats": {
+      "HP": 293,
+      "ATK": 186,
+      "DEF": 155,
+      "SPD": 103,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Physical", 0.0],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "hands": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "body": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "feet": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      }
+    }
+  },
+  "Arlan": {
+    "imgLink": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Character_Arlan_Splash_Art.png/",
+    "pulled": "",
+    "level": 20,
+    "rarity": 4,
+    "eidolons": "",
+    "type": "Lightning",
+    "path": "The Destruction",
+    "lightCone": {
+      "name": "",
+      "rarity": "",
+      "path": "",
+      "level": "",
+      "superImposition": "",
+      "stats": { "HP": "", "ATK": "", "DEF": "" }
+    },
+    "traces": {
+      "basicATK": 1,
+      "skill": 2,
+      "ultimate": 2,
+      "talent": 2
+    },
+    "stats": {
+      "HP": 383,
+      "ATK": 199,
+      "DEF": 105,
+      "SPD": 102,
+      "critRate": 5.0,
+      "critDMG": 50.0,
+      "DMGBoost": ["Physical", 0.0],
+      "breakEffect": 0.0,
+      "outgHealBoost": 0.0,
+      "energyRegenRate": 100.0,
+      "effectHitRate": 0.0,
+      "effectRES": 0.0
+    },
+    "relics": {
+      "head": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "hands": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "body": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "feet": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "planarSphere": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      },
+      "linkRope": {
+        "name": "",
+        "set": "",
+        "level": "",
+        "rarity": "",
+        "stats": { "main": [] }
+      }
+    }
+  }
+}

@@ -1,32 +1,6 @@
 /*CSS RESET*/
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-body {
-  line-height: 1;
-}
+@import url("./reset.css");
 
 /* CUSTOM CSS RULES */
 
@@ -64,6 +38,6 @@ span {
   margin: 1%;
 }
 
-.button.button:nth-child(4n) {
+.button:nth-child(4n) {
   width: 15%;
 }

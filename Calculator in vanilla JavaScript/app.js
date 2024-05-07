@@ -1,11 +1,11 @@
 let problem = "";
 let result = "";
 
-const button = document.getElementsByTagName("button");
+const buttons = document.querySelectorAll("button");
 const displayWindow = document.querySelector("#displayWindow");
 
-for (let i = 0; i < button.length; i++) {
-  button[i].addEventListener("click", function (event) {
+buttons.forEach((button) => {
+  button.addEventListener("click", (event) => {
     const clickedButton = event.target;
 
     if (clickedButton.tagName === "BUTTON") {
@@ -33,7 +33,6 @@ for (let i = 0; i < button.length; i++) {
           result = eval(problem);
           displayWindow.innerText = result;
           problem = "";
-          // TODO: fix handling for "undefined"
           break;
         case "C":
           problem = "";
@@ -42,4 +41,4 @@ for (let i = 0; i < button.length; i++) {
       }
     }
   });
-}
+});

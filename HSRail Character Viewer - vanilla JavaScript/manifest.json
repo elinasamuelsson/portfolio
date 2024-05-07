@@ -1,0 +1,22 @@
+{
+  "short_name": "HSR Character Viewer",
+  "name": "Elina's Full Honkai Star Rail Character Viewer",
+  "description": "Webpage created to view the full Honkai Star Rail roster of the page's author Elina.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "./ticket_icon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#121112",
+  "background_color": "#121112",
+  "dir": "ltr",
+  "lang": "en"
+}

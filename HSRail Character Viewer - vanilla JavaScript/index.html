@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="View my current character roster in Honkai Star Rail. Features a search function for ease parsing all characters, as well as a separate side bar to view my main 4-person team."
+    />
+    <meta name="author" content="Elina Samuelsson" />
+    <!-- TODO: Add PWA and caching -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <script src="app.js" defer></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("./sw.js").then(
+            function (registration) {
+              console.log(
+                "ServiceWorker registration successful with scope: ",
+                registration.scope
+              );
+            },
+            function (err) {
+              console.log("ServiceWorker registration failed: ", err);
+            }
+          );
+        });
+      }
+    </script>
+    <title>Honkai Star Rail character viewer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="innerContainer intro">
+        <h1>Honkai Star Rail character viewer</h1>
+        <p>
+          Welcome to my character viewer page where you will be able to look
+          through my Honkai Star Rail roster and the builds (or lack thereof) of
+          each character. The webpage displays my main team, secondary team, and
+          a list of all characters in my roster.
+        </p>
+        <p>
+          Each character image will be clickable and will open a pop-up with
+          additional information on the character's lightcone and relics setup,
+          as well as stats and talent progress.
+        </p>
+        <p>The roster list will also be searchable.</p>
+      </div>
+      <div class="innerContainer">
+        <h2>Current teams</h2>
+        <button id="toggleButton">Toggle team view</button>
+        <div class="toggleWindow">
+          <h3>Main team</h3>
+          <div class="teamWindow mainTeamWindow"></div>
+          <h3>Secondary team</h3>
+          <div class="teamWindow secondaryTeamWindow"></div>
+        </div>
+      </div>
+      <div class="container innerContainer">
+        <h2>Full roster</h2>
+        <input />
+        <div class="listWindow"></div>
+      </div>
+    </div>
+  </body>
+</html>
