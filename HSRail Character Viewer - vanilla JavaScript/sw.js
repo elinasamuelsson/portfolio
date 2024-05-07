@@ -1,6 +1,9 @@
+const CACHE_STATIC_NAME = "static1.0";
+const CACHE_DYNAMIC_NAME = "dynamic1.0";
+
 self.addEventListener("install", function (event) {
   event.waitUntil(
-    caches.open("static").then(function (cache) {
+    caches.open(CACHE_STATIC_NAME).then(function (cache) {
       cache.addAll([
         "app.js",
         "characters.json",
@@ -8,8 +11,7 @@ self.addEventListener("install", function (event) {
         "manifest.json",
         "reset.css",
         "style.css",
-        "sw.js",
-        "ticket_icon.svg",
+        "ticket_icon.png",
         "Character_Arlan_Splash_Art.png/",
         "Character_Asta_Splash_Art.png/",
         "Character_Aventurine_Splash_Art.png/",
@@ -44,11 +46,23 @@ self.addEventListener("install", function (event) {
   );
 });
 
-self.addEventListener("activate", function (event) {});
+self.addEventListener("activate", function (event) {
+  event.waitUntil(
+    caches.keys().then(function (keyList) {
+      return Promise.all(
+        keyList.map(function (key) {
+          if (key !== CACHE_STATIC_NAME && key !== CACHE_DYNAMIC_NAME) {
+            caches.delete(key);
+          }
+        })
+      );
+    })
+  );
+});
 
 self.addEventListener("fetch", function (event) {
   event.respondWith(
-    caches.open("dynamic").then(function (cache) {
+    caches.open(CACHE_DYNAMIC_NAME).then(function (cache) {
       return cache.match(event.request).then(function (response) {
         return (
           response ||
