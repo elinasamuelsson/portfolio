@@ -1,51 +1,51 @@
 async function getCharacters() {
-  const response = await fetch("./characters.json");
-  const charactersData = await response.json();
+  try {
+    const response = await fetch("./characters.json");
+    const charactersData = await response.json();
 
-  const charactersArray = Object.entries(charactersData).map(
-    ([name, data]) => ({ name, ...data })
-  );
-
-  populateTeamWindows(charactersArray);
-  populateListWindow(charactersArray);
+    const charactersArray = Object.entries(charactersData).map(
+      ([name, data]) => ({ name, ...data })
+    );
+    populateTeamWindow(charactersArray);
+    populateListWindow(charactersArray);
+  } catch (error) {
+    console.log("Error:", error);
+  }
 }
 
-function populateTeamWindows(charactersArray) {
-  // TODO: needs optimization
-  const mainTeamWindow = document.querySelector(".mainTeamWindow");
-  const mainTeamCharacters = ["Sampo", "Black Swan", "Pela", "Bailu"];
-  const mainTeam = charactersArray.filter((character) =>
-    mainTeamCharacters.includes(character.name)
+function populateTeamWindow(charactersArray) {
+  populateTeams(
+    document.querySelector(".mainTeamWindow"), 
+    charactersArray, 
+    ["Sampo", "Black Swan", "Pela", "Bailu"]
   );
 
-  mainTeam.forEach((character) => {
-    mainTeamWindow.innerHTML += `<div>
+  populateTeams(
+    document.querySelector(".secondaryTeamWindow"),
+    charactersArray,
+    ["Sparkle", "Dr. Ratio", "Yukong", "Aventurine"]
+  );
+
+  function populateTeams(teamWindow, charactersArray, teamCharacters) {
+    const filteredCharacters = charactersArray.filter((character) =>
+      teamCharacters.includes(character.name)
+    );
+
+    filteredCharacters.forEach((character) => {
+      teamWindow.innerHTML += `<div>
       <img src="${character.imgLink}" alt="${character.name}">
       <p>${character.name}</p>
       <p>${character.path}, ${character.type}</p>
     </div>`;
-  });
-
-  const secondaryTeamWindow = document.querySelector(".secondaryTeamWindow");
-  const secondaryTeam = ["Sparkle", "Dr. Ratio", "Aventurine", "Yukong"];
-  const secondMainTeam = charactersArray.filter((character) =>
-    secondaryTeam.includes(character.name)
-  );
-
-  secondMainTeam.forEach((character) => {
-    secondaryTeamWindow.innerHTML += `<div class="characterItem">
-      <img src="${character.imgLink}" alt="${character.name}">
-      <p>${character.name}</p>
-      <p>${character.path}, ${character.type}</p>
-    </div>`;
-  });
+    });
+  }
 }
 
 function populateListWindow(charactersArray) {
   const listWindow = document.querySelector(".listWindow");
+
   charactersArray.forEach((character) => {
-    listWindow.innerHTML += `
-    <div class="characterItem">
+    listWindow.innerHTML += `<div>
       <img src="${character.imgLink}" alt="${character.name}">
       <p>${character.name}</p>
       <p>${character.path}, ${character.type}</p>
@@ -69,12 +69,9 @@ function toggleTeamWindows() {
 getCharacters();
 toggleTeamWindows();
 
-
 /* TODO: 
-
 - Add searchability to list
 - Add hover/pop-up modals to show character details
-- Optimize populate functions
+- Change populate functions to append content to toggleWindow rather than .innerHTML += to separate divs in HTML
 - Add stars to indicate rarity behind each name
-
 */
