@@ -14,16 +14,14 @@ async function getCharacters() {
 }
 
 function populateTeamWindow(charactersArray) {
-  populateTeams(
-    document.querySelector(".mainTeamWindow"), 
-    charactersArray, 
-    ["Sampo", "Black Swan", "Pela", "Bailu"]
+  populateTeams(document.querySelector(".mainTeamWindow"), charactersArray, [
+    "Sampo", "Black Swan", "Pela", "Bailu"]
   );
 
   populateTeams(
     document.querySelector(".secondaryTeamWindow"),
     charactersArray,
-    ["Sparkle", "Dr. Ratio", "Yukong", "Aventurine"]
+    ["Yukong", "Dr. Ratio", "Robin", "Aventurine"]
   );
 
   function populateTeams(teamWindow, charactersArray, teamCharacters) {
