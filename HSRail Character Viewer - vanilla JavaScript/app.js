@@ -70,6 +70,6 @@ toggleTeamWindows();
 /* TODO: 
 - Add searchability to list
 - Add hover/pop-up modals to show character details
-- Change populate functions to append content to toggleWindow rather than .innerHTML += to separate divs in HTML
+- Change populate functions to create elements and append content rather than .innerHTML += to separate divs in HTML
 - Add stars to indicate rarity behind each name
 */
