@@ -1,10 +1,14 @@
-# skill showcase
+# portfolio
 
-## Welcome to this showcase folder!
+## Welcome to my portfolio!
 
 This repository contains a collection of bits and bobs of my own making that in time (hopefully) will be fair showing of my proficiency in various script languages.
 
 ## Projects
+
+### Portfolio Website
+
+Portfolio website with my CV, skills, links, etc. coded in HTML, CSS, and JavaScript. 
 
 ### Calculator in vanilla JavaScript
 
