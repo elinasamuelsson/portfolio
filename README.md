@@ -1,6 +1,6 @@
-# portfolio
+# skill showcase
 
-## Welcome to my portfolio!
+## Welcome to this showcase folder!
 
 This repository contains a collection of bits and bobs of my own making that in time (hopefully) will be fair showing of my proficiency in various script languages.
 
