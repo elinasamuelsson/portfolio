@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <title>Elina Samuelsson - front end developer and webmaster</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Elina is an aspiring front end developer with experience in HTML, CSS, JavaScript, PHP, SQL, and Node.js. She has experimented with various CSS-, and JavaScript frameworks."
+  />
+  <meta name="robots" content="index, follow" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Shippori+Antique+B1&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="canonical" href="" />
+  <link rel="stylesheet" href="styles-main.css" />
+  <link rel="manifest" href="manifest.json" />
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("sw.js").then(
+          function (registration) {
+            console.log(
+              "ServiceWorker registration successful with scope: ",
+              registration.scope
+            );
+          },
+          function (err) {
+            console.log("ServiceWorker registration failed: ", err);
+          }
+        );
+      });
+    }
+  </script>
+</head>
+<body>
+  <div class="frame">
+    <header>
+      <h1>Elina Samuelsson</h1>
+      <h2>front end dev</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li>
+          <a href="https://github.com/elinasamuelsson/" target="_blank"
+            >github</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/elinasamuelsson/" target="_blank"
+            >linkedin</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="toggle">
+      <p>toggle</p>
+    </div>
+  </div>
+</body>
