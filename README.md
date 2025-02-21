@@ -6,6 +6,10 @@ This repository contains a collection of bits and bobs of my own making that in 
 
 ## Projects
 
+### Portfolio Website
+
+Portfolio website with my CV, skills, links, etc. coded in HTML, CSS, and JavaScript. 
+
 ### Calculator in vanilla JavaScript
 
 Basic calculator made with vanilla JavaScript. It handles calculations by saving the corresponding number to the clicked buttons in a variable, and then uses eval() to solve the problem.
