@@ -152,7 +152,7 @@ body {
 
   border: 1px solid #1e1e1e;
   outline: 3px solid #1e1e1e;
-  outline-offset: .6rem;
+  outline-offset: 0.6rem;
 }
 
 header {
@@ -172,8 +172,8 @@ header h2 {
 }
 
 .small {
-  padding-top: .4rem;
-  font-size: .7rem;
+  padding-top: 0.4rem;
+  font-size: 0.7rem;
 }
 
 nav {
@@ -182,7 +182,7 @@ nav {
 }
 
 nav ul li {
-  padding-bottom: .3rem;
+  padding-bottom: 0.3rem;
 }
 
 a {
@@ -202,6 +202,61 @@ a:hover {
   position: absolute;
   right: 2rem;
   bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
 
-  visibility: hidden;
+.toggle-button {
+  width: 2rem;
+  height: 1rem;
+  display: block;
+  position: relative;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.toggle-circle {
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #edd3c4;
+  border-radius: 0.8rem;
+  margin: .1rem;
+}
+
+.toggle label input {
+  display: none;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 695px), (max-height: 580px) {
+  .frame {
+    outline: 2px solid #1e1e1e;
+    outline-offset: 0.3rem;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  header h2 {
+    font-size: 1.3rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

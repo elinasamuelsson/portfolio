@@ -1,0 +1,6 @@
+# robots.txt file of https://webbkurs.ei.hv.se/~elsa0047/birgittasklensmide/
+User-agent: *
+Disallow:
+Sitemap: https://webbkurs.ei.hv.se/~elsa0047/birgittasklensmide/sitemap.xml
+
+# The web adresses used in this file is the website's location as of May 2024. Since the webbkurs.ei.hv.se domain belongs to my school this page will be deleted post my graduation to make room on the server for new students.

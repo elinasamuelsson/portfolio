@@ -19,8 +19,8 @@
 
   <link rel="canonical" href="" />
   <link rel="stylesheet" href="styles-main.css" />
-  <link rel="manifest" href="manifest.json" />
-
+  <!-- MANIFEST FUNCTIONALITY TO BE ADDED <link rel="manifest" href="manifest.json" /> -->
+  <!-- SERVICE WORKER FUNCTIONALITY TO BE ADDED
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {
@@ -37,7 +37,8 @@
         );
       });
     }
-  </script>
+  </script> 
+  -->
 </head>
 <body>
   <div class="frame">
@@ -61,8 +62,13 @@
         </li>
       </ul>
     </nav>
+    <!-- DARK MODE FUNCTIONALITY TO BE ADDED
     <div class="toggle">
-      <p>toggle</p>
+      <label class="toggle-button">
+        <input type="checkbox" id="toggle-check" />
+      </label>
+      <div class="toggle-circle"></div>
     </div>
+    -->
   </div>
 </body>
