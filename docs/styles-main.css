@@ -185,6 +185,10 @@ nav ul li {
   padding-bottom: 0.3rem;
 }
 
+.project-link {
+  margin-top: 1rem;
+}
+
 a {
   font-size: 1.2rem;
   color: #183b3d;
