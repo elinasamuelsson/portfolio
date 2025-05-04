@@ -1,4 +1,4 @@
-const CACHE_STATIC_NAME = "static1.0";
+/*const CACHE_STATIC_NAME = "static1.0";
 const CACHE_DYNAMIC_NAME = "dynamic1.0";
 
 self.addEventListener("install", function (event) {
@@ -44,4 +44,4 @@ self.addEventListener("fetch", function (event) {
       });
     })
   );
-});
+}); */
