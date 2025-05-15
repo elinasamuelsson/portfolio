@@ -8,26 +8,8 @@
       content="View my current character roster in Honkai Star Rail. Features a search function for ease parsing all characters, as well as a separate side bar to view my main 4-person team."
     />
     <meta name="author" content="Elina Samuelsson" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", function () {
-          navigator.serviceWorker.register("./sw.js").then(
-            function (registration) {
-              console.log(
-                "ServiceWorker registration successful with scope: ",
-                registration.scope
-              );
-            },
-            function (err) {
-              console.log("ServiceWorker registration failed: ", err);
-            }
-          );
-        });
-      }
-    </script>
     <title>Honkai Star Rail character viewer</title>
   </head>
   <body>
@@ -36,16 +18,12 @@
         <h1>Honkai Star Rail character viewer</h1>
         <p>
           Welcome to my character viewer page where you will be able to look
-          through my Honkai Star Rail roster and the builds (or lack thereof) of
-          each character. The webpage displays my main team, secondary team, and
+          through my Honkai Star Rail roster as of May 2024. The webpage displays my main team, secondary team, and
           a list of all characters in my roster.
         </p>
         <p>
-          Each character image will be clickable and will open a pop-up with
-          additional information on the character's lightcone and relics setup,
-          as well as stats and talent progress.
+          For now this page is not completed, and updates are planned.
         </p>
-        <p>The roster list will also be searchable.</p>
       </div>
       <div class="innerContainer">
         <h2>Current teams</h2>

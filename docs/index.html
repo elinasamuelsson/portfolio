@@ -18,7 +18,7 @@
   />
 
   <link rel="canonical" href="" />
-  <link rel="stylesheet" href="styles-main.css" />
+  <link rel="stylesheet" href="styles.css" />
 
   <!-- MANIFEST & SERVICE WORKER FUNCTIONALITY TO BE ADDED 
   <link rel="manifest" href="manifest.json" />
@@ -40,6 +40,8 @@
     }
   </script> 
   -->
+
+  <script src="app.js" defer></script>
 </head>
 <body>
   <div class="frame">
@@ -49,37 +51,45 @@
     </header>
     <nav>
       <ul>
-        <li><a href="about.html">about</a></li>
-        <li><a href="contact.html">contact</a></li>
+        <li><a href="about.html" class="nav-link">about</a></li>
+        <li><a href="contact.html" class="nav-link">contact</a></li>
         <li>
-          <a href="https://www.linkedin.com/in/elinasamuelsson/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/elinasamuelsson/"
+            target="_blank"
+            class="nav-link"
             >linkedin</a
           >
         </li>
         <li class="project-link">
-          <a href="https://github.com/elinasamuelsson/portfolio/" target="_blank"
+          <a
+            href="https://github.com/elinasamuelsson/portfolio/"
+            target="_blank"
+            class="nav-link"
             >github</a
           >
           <p>
-            This is a collection of unhosted projects I've done.
+            This is a collection of projects I've done that (aside from the docs
+            folder) are not hosted.
           </p>
         </li>
         <li class="project-link">
-          <a href="./birgitta/index.html">Birgitta's Smithy Website</a>
+          <a href="./birgitta/index.html" class="nav-link"
+            >Birgitta's Smithy Website</a
+          >
           <p>
             This is a fictitious website for an independent blacksmith business
             written mainly in HTML and CSS.
           </p>
         </li>
+        <li class="project-link">
+          <a href="./birgitta/index.html" class="nav-link">Character Viewer</a>
+          <p>
+            This is a character viewer for the game Honkai Star Rail. It is
+            written in HTML, CSS, and JavaScript.
+          </p>
+        </li>
       </ul>
     </nav>
-    <!-- WORK IN PROGRESS: DARK MODE
-    <div class="toggle">
-      <label class="toggle-button">
-        <input type="checkbox" id="toggle-check" />
-      </label>
-      <div class="toggle-circle"></div>
-    </div>
-    -->
   </div>
 </body>
