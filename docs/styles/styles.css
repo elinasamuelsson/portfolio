@@ -89,8 +89,35 @@ nav ul li {
   padding-bottom: 0.3rem;
 }
 
+li:nth-child(3) {
+  flex-basis: 100%;
+}
+
+h3 {
+  font-family: var(--page-header);
+  padding-bottom: 0.5rem;
+}
+
+h3:hover {
+  cursor: pointer;
+}
+
 .project-link {
-  margin-top: 1rem;
+  width: 25rem;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--light-cyan);
+  border-radius: 2px;
+}
+
+.modal-card {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+
+.modal-card.open {
+  max-height: 75px;
 }
 
 .back-link {
@@ -139,5 +166,9 @@ a:hover {
   nav ul li {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .project-link {
+    width: 10rem;
   }
 }
