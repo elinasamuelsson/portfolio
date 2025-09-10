@@ -21,11 +21,6 @@ This is a fictitious website for an independent blacksmith business written pure
 
 A small website showcasing my character roster in the game Honkai Star Rail by fetching data from a json-file. The page as is right now is very bare-bones both in terms of styling and functionality but will be updated as I continue work on it.
 
-### Calculator in vanilla JavaScript
-
-Basic calculator made with vanilla JavaScript. It handles calculations by saving the corresponding number to the clicked buttons in a variable, and then uses eval() to solve the problem.
-The calculator is as of now unstyled aside from basic layouting.
-
 ## Contact
 
 Email: elina.samuelsson@live.com
