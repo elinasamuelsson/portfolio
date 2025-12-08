@@ -1,174 +1,184 @@
-@import url("reset.css");
-@import url("variables.css");
+@import url("./normalize.css");
 
-/*STYLES*/
+/* VARIABLES */
+:root {
+    --jet-black: #292929;
+    --dim-gray: #747474;
+    --silver-gray: #c2c2c2;
+    --white-smoke: #f5f5f5;
+    --caribbean-current: #0c6e6e;
+    --verdigris: #65a4a4;
+    --light-cyan: #bfd9d9;
+
+    --page-text: "Shippori Antique B1", sans-serif;
+    --page-header: "Cantata One", Arial, sans-serif;
+}
+
+/* LAYOUT */
 body {
-  background-color: var(--jet-black);
-  color: var(--silver-gray);
-
-  width: 100vw;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: var(--page-text);
-}
-
-.frame {
-  position: relative;
-  width: 97vw;
-  height: 95vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  border: 3px solid transparent;
-  border-image: linear-gradient(
-    340deg,
-    var(--light-cyan),
-    var(--caribbean-current)
-  );
-  border-image-slice: 1;
-}
-
-.frame::before {
-  content: "";
-  position: absolute;
-  top: -8px;
-  left: -8px;
-  right: -8px;
-  bottom: -8px;
-  z-index: -1;
-  border: 1px solid transparent;
-  border-image: linear-gradient(
-    340deg,
-    var(--light-cyan),
-    var(--caribbean-current)
-  );
-  border-image-slice: 1;
-  pointer-events: none;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header {
-  padding-bottom: 1rem;
+    height: auto;
+    width: 100vw;
 
-  text-align: center;
-  font-family: var(--page-header);
-  background: linear-gradient(
-    345deg,
-    var(--light-cyan),
-    var(--caribbean-current)
-  );
-  background-clip: text;
-  color: transparent;
-  -webkit-text-stroke: 0.5px var(--caribbean-current);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-header h1 {
-  font-size: 3.5rem;
+h1 {
+    margin-bottom: 0;
 }
 
-header h2 {
-  font-size: 2.5rem;
+header p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.small {
-  padding-top: 0.4rem;
-  font-size: 0.7rem;
+nav ul {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 0;
 }
 
-nav {
-  text-align: center;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-nav ul li {
-  padding-bottom: 0.3rem;
+hr {
+    width: 20vw;
+    border-top: 3px solid;
 }
 
-li:nth-child(3) {
-  flex-basis: 100%;
-}
 
-h3 {
-  font-family: var(--page-header);
-  padding-bottom: 0.5rem;
-}
+section {
+    width: 90vw;
 
-h3:hover {
-  cursor: pointer;
-}
-
-.project-link {
-  width: 25rem;
-  margin: 0.5rem 1rem;
-  padding: 0.5rem 1rem;
-  border: 2px solid var(--light-cyan);
-  border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal-card {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 1s ease;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
 }
 
-.modal-card.open {
-  max-height: 75px;
+footer {
+    width: 100%;
 }
 
-.back-link {
-  margin-top: 2rem;
+footer p {
+    margin-bottom: 0;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* COLORS */
+body {
+    background-color: var(--white-smoke);
+    color: var(--jet-black);
 }
 
 a {
-  font-size: 1.2rem;
-  color: var(--light-cyan);
-}
-
-a:visited {
-  color: var(--light-cyan);
+    color: var(--light-cyan);
 }
 
 a:hover {
-  color: var(--caribbean-current);
-  transition: 0.3s ease-in-out;
+    color: var(--verdigris);
 }
 
-/*MEDIA QUERIES*/
-@media (max-width: 695px), (max-height: 580px) {
-  .frame {
-    width: 94vw;
-    height: 95vh;
-  }
-  header h1 {
-    font-size: 1.6rem;
-  }
+header hr {
+    color: var(--white-smoke);
+}
 
-  header h2 {
-    font-size: 1.3rem;
-  }
+main hr {
+    color: var(--caribbean-current);
+}
 
-  a {
-    font-size: 0.9rem;
-  }
+header,
+footer {
+    background-color: var(--caribbean-current);
+    color: var(--white-smoke);
+}
 
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.modal-card {
+    background-color: var(--caribbean-current);
+    color: var(--light-cyan);
+}
 
-  nav ul li {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+.temp-contact a {
+    color: var(--jet-black);
+}
 
-  .project-link {
-    width: 10rem;
-  }
+.temp-contact a:hover {
+    color: var(--verdigris);
+}
+
+/* TYPOGRAPHY */
+body {
+    font-family: var(--page-text), sans-serif;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: var(--page-header), serif;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+i {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* GENERAL */
+nav ul {
+    list-style-type: none;
+}
+
+a:active {
+    transition: ease-in-out 0.1s;
+}
+
+/* MQ */
+@media screen and (min-width: 1200px) {
+    main {
+        width: 1200px;
+    }
+
+    section {
+        width: inherit;
+    }
 }
