@@ -16,11 +16,6 @@ Portfolio website with my CV, skills, links, etc. coded in HTML, CSS, and JavaSc
 
 This is a fictitious website for an independent blacksmith business written purely in HTML and CSS. It was a school assignment meant to teach us SEO techniques.
 
-### Honkai Star Rail Character Viewer - vanilla JavaScript
-#### https://elinasamuelsson.github.io/portfolio/hsr/index.html
-
-A small website showcasing my character roster in the game Honkai Star Rail by fetching data from a json-file. The page as is right now is very bare-bones both in terms of styling and functionality but will be updated as I continue work on it.
-
 ## Contact
 
 Email: elina.samuelsson@live.com
