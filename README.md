@@ -16,6 +16,11 @@ Portfolio website with my CV, skills, links, etc. coded in HTML, CSS, and JavaSc
 
 This is a fictitious website for an independent blacksmith business written purely in HTML and CSS. It was a school assignment meant to teach us SEO techniques.
 
+### Personal Finance Tracker
+#### https://github.com/elinasamuelsson/Personal-Finance-Tracker-OOP/
+
+Personal finance tracker application written in object oriented Java. Tracks users, accounts, and transactions.
+
 ## Contact
 
 Email: elina.samuelsson@live.com
